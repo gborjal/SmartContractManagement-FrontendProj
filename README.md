@@ -1,6 +1,31 @@
-# Starter Next/Hardhat Project
+For this project, create a simple contract with 2-3 functions. Then show the values of those functions in frontend of the application. using the SCM-Starter repository from https://github.com/MetacrafterChris/ as template.
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+What's different from the template?
+
+In the smart contract Assessment,
+
+	Variables added to  are passcode and passCodeCount
+
+	Modifiers IsOwner and PassCodePass
+
+	event PassCodeChange
+
+	deposit and withdraw functions have modifiers and an additional parameter _passCode
+
+	addition of changePassCode for changing of passcode, as well as, functions for getting passcode and passcodeChangeCount
+In the index.js,
+
+	added state variables passcode and passCodeCount
+
+	getters and setters for the additional variables
+
+	modified deposit and withdraw function
+
+	added changePassCode
+
+	added input fields and button for the added functionalities
+
+How to run:
 
 1. Inside the project directory, in the terminal type: npm i
 2. Open two additional terminals in your VS code
@@ -10,3 +35,5 @@ After cloning the github, you will want to do the following to get the code runn
 
 After this, the project will be running on your localhost. 
 Typically at http://localhost:3000/
+
+
