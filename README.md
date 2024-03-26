@@ -6,6 +6,8 @@ In the smart contract Assessment,
 
 	Variables added to  are passcode and passCodeCount
 
+	Modified constructor to take balance and default passcode
+
 	Modifiers IsOwner and PassCodePass
 
 	event PassCodeChange
@@ -24,6 +26,12 @@ In the index.js,
 	added changePassCode
 
 	added input fields and button for the added functionalities
+
+In the deploy.js,
+
+	added const variable initPassCode
+
+	modified deploy function to take two parameters, namely the balance and the default passcode
 
 How to run:
 
